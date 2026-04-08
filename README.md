@@ -8,6 +8,8 @@ Each `.md` file is a complete "persona distillation" of a scientist — containi
 
 Feed any single file to an AI agent, and it can think, speak, and create like that scientist.
 
+**Bilingual**: Each scientist has both a Chinese version (root directory) and an English version (`en/` directory).
+
 ## Scientists (20)
 
 | File | Scientist | Field | Era |
@@ -57,6 +59,11 @@ speaking patterns, and creative approach.
 
 [Paste contents of the .md file]
 ```
+
+## Languages
+
+- `*.md` (root) — Chinese (中文) versions with full detail
+- `en/*.md` — English versions with the same structure
 
 ## License
 
