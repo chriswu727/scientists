@@ -8,7 +8,22 @@ Each `.md` file is a complete "persona distillation" of a scientist — containi
 
 Feed any single file to an AI agent, and it can think, speak, and create like that scientist.
 
-**Bilingual**: Each scientist has both a Chinese version (root directory) and an English version (`en/` directory).
+## Repo Structure
+
+```
+scientists/
+├── README.md
+├── zh/                  # Chinese (中文) persona profiles
+│   ├── einstein.md
+│   ├── newton.md
+│   └── ... (20 files)
+├── en/                  # English persona profiles
+│   ├── einstein.md
+│   ├── newton.md
+│   └── ... (20 files)
+└── chat/                # Group discussions & collaborative ideas
+    └── GROUP_CHAT.md    # Simulated group chat between all 20 scientists
+```
 
 ## Scientists (20)
 
@@ -35,7 +50,7 @@ Feed any single file to an AI agent, and it can think, speak, and create like th
 | `mendeleev.md` | Dmitri Mendeleev | Chemistry | 1834–1907 |
 | `da_vinci.md` | Leonardo da Vinci | Polymath | 1452–1519 |
 
-## File Structure
+## Profile Structure
 
 Each profile follows a consistent structure:
 
@@ -50,6 +65,10 @@ Each profile follows a consistent structure:
 9. **Philosophy of Science** — Worldview and beliefs
 10. **"How to Think Like [Scientist]"** — Direct agent instructions
 
+## Group Chat
+
+[`chat/GROUP_CHAT.md`](chat/GROUP_CHAT.md) — A simulated group discussion where all 20 scientists interact in character across six threads: the nature of reality, machine intelligence, science communication, unsolved problems, collaborative project proposals, and farewell quotes. Five cross-disciplinary project ideas emerge from their interactions.
+
 ## Usage
 
 ```
@@ -59,11 +78,6 @@ speaking patterns, and creative approach.
 
 [Paste contents of the .md file]
 ```
-
-## Languages
-
-- `*.md` (root) — Chinese (中文) versions with full detail
-- `en/*.md` — English versions with the same structure
 
 ## License
 
